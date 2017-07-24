@@ -32,7 +32,7 @@ get_header(); ?>
     		<?php query_posts('posts_per_page=1'); ?>
   				<?php while ( have_posts() ) : the_post(); ?>
     				<h2><?php the_title(); ?></h2>
-       				<?php get_template_part('content-blog', get_post_format()); ?>
+      				<?php the_excerpt(); ?> 
  				<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
   	  	</div>
