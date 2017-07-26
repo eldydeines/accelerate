@@ -40,3 +40,40 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/*Case studies css*/
+aside.case-study-sidebar {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+div.case-study-images {
+	float: left;
+	width: 600px;
+}
+div.case-study-images img {
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+}
+aside.case-study-sidebar h2{
+	margin-top: 65px;
+	margin-bottom: 0px;
+}
+aside.case-study-sidebar h3 {
+	font-size: 0.8em;
+	margin: 5px 0px;
+	font-weight: 200;
+	color: #a6a6a6;
+}
+aside.case-study-sidebar h4 {
+	margin: 5px 0px;
+	font-size: 0.9em;
+	font-weight: 200;
+}
+
+aside.case-study-sidebar a {
+	color: #45ac9d;
+	text-transform: uppercase;
+	font-weight: 700;
+}
