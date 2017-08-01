@@ -45,7 +45,7 @@
 aside.case-study-sidebar {
 	float: left;
 	width: 300px;
-	margin-right: 50px;
+	margin-right: 25px;
 }
 div.case-study-images {
 	float: left;
@@ -53,11 +53,11 @@ div.case-study-images {
 }
 div.case-study-images img {
 	display: block;
-	margin-bottom: 50px;
+	margin: 25px 0px;
 	border: 1px solid #dddddd;
 }
 aside.case-study-sidebar h2{
-	margin-top: 65px;
+	margin-top: 30px;
 	margin-bottom: 0px;
 }
 aside.case-study-sidebar h3 {
@@ -73,6 +73,69 @@ aside.case-study-sidebar h4 {
 }
 
 aside.case-study-sidebar a {
+	color: #45ac9d;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*Case studies Front Page css*/
+.featured-work h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 50px 0px;
+}
+
+ul.homepage-featured-work {
+	list-style: none;
+}
+
+li.individual-featured-work {
+	
+	display: inline-block;
+	width: 33%;
+	text-decoration: none;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+
+aside.case-archives-sidebar {
+	float: left;
+	width: 300px;
+}
+div.case-archives-images {
+	float: left;
+	width: 600px;
+}
+div.case-archives-images img {
+	display: block;
+	border: 1px solid #dddddd;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+}
+aside.case-archive-sidebar h2 {
+	font-size: 1.0em;
+	margin-bottom: 0px;
+}
+aside.case-archives-sidebar h3 {
+	font-size: 0.8em;
+	font-weight: 200;
+	color: #a6a6a6;
+	margin-top: 0px;
+}
+aside.case-archives-sidebar h4 {
+	font-size: 0.9em;
+	font-weight: 200;
+}
+
+aside.case-archives-sidebar p {
+	font-size: 0.8em;
+	font-weight: 200;
+}
+
+aside.case-archives-sidebar a {
 	color: #45ac9d;
 	text-transform: uppercase;
 	font-weight: 700;
