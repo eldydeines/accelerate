@@ -192,7 +192,7 @@ div.contact-section p {
 /*About us - css*/
 div.about-content h3 {
 	color: #FFFFFF;
-	padding: 150px 550px;
+	padding: 150px 325px;
 	margin: 0px;
 	font-size: 1.75em;
 	text-align: center;
@@ -207,7 +207,7 @@ div.about-content h5 {
 div.about-content p {
 	text-align: center;
 	margin-top: 10px;
-	padding: 0px 625px;
+	padding: 0px 400px;
 }
 
 
