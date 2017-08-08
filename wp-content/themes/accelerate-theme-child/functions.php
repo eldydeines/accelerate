@@ -38,4 +38,34 @@ function create_custom_post_type() {
 		)
 	);
 }
+function create_custom_post_types() {
+    register_post_type( 'about_groups',
+        array(
+            'labels' => array(
+                'name' => __( 'About Groups' ),
+                'singular_name' => __( 'About Group' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'about-groups' ),
+        )
+    );
+}
+function accelerate_theme_child_widget_init() {
+	
+	register_sidebar( array(
+	    'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+	    'id' => 'sidebar-2',
+	    'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+	    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	    'after_widget' => '</aside>',
+	    'before_title' => '<h3 class="widget-title">',
+	    'after_title' => '</h3>',
+	) );
+	
+}
+
+
 add_action('init','create_custom_post_type');
+add_action('init','create_custom_post_types');
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );

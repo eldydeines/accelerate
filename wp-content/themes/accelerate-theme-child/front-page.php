@@ -59,7 +59,17 @@ get_header(); ?>
  				<?php endwhile; ?> 
 			<?php wp_reset_query(); ?>
   	  	</div>
+	
+	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+		<div id="secondary" class="front-widget-area" role="complementary">
+			<h2><?php echo "Recent Tweet"; ?></h2>
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+			<div class="read-more-link"><a id="front-right-wid" href="https://twitter.com/eldydeines/" target="_blank">Follow us</a>
+			<p class="carrot">></p></div>
+		</div>
+	<?php endif; ?>
 	</div>
 </section>
+
 
 <?php get_footer(); ?>

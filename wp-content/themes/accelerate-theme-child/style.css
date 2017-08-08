@@ -13,7 +13,7 @@
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
 }
 
 #masthead {
@@ -26,12 +26,17 @@
 
 .blog-post {
 	width: 50%;
+	display: inline-block;
+	float: left;
+	margin: 50px 0px 0px 0px;
 }
 .blog-post h4 {
+	margin: 0px 0px 25px 0px;
 	color: #a6a6a6;
 	text-transform: uppercase;
 }
 .blog-post h2 {
+	margin: 0px 0px;
 	font-size: 1.5em;
 }
 .read-more-link {
@@ -140,3 +145,193 @@ aside.case-archives-sidebar a {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
+/*Contact Us - css*/
+
+div.contact-section {
+	padding: 0px 150px;
+	margin-top: 0px;
+}
+
+div.contact-section p {
+	margin-bottom: 50px;
+}
+.page #nf-field-1-container, select {
+    width: 50%;
+    padding: 0px 10px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline;
+    float: left;
+}
+
+.page #nf-field-2-container, select {
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline;
+    float: none;
+}
+
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea {
+	    height: 35px;
+}
+
+
+.page #nf-field-3-container, select {
+
+    margin: 15px 0;
+}
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    padding: 0px 100px 0px 100px;
+    display: inline;
+    text-align: center;
+    float: right;
+}
+
+/*About us - css*/
+div.about-content h3 {
+	color: #FFFFFF;
+	padding: 150px 550px;
+	margin: 0px;
+	font-size: 1.75em;
+	text-align: center;
+	font-weight: 200;
+	background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+}
+
+div.about-content h5 {
+	text-align: center;
+	margin-top: 75px;
+}
+div.about-content p {
+	text-align: center;
+	margin-top: 10px;
+	padding: 0px 625px;
+}
+
+
+div.about-group-service {
+	margin: 0px 0px 150px 0px;
+	width: auto;
+	clear: both;
+}
+
+div.about-group-left-img img{
+	float: left;
+	margin: 50px 0px 0px 0px;
+}
+
+div.about-group-right {
+	width: 66%;
+	margin: 0px 0px 0px 0px;
+	padding: 25px 0px;
+	display: inline-block;
+	float: right;
+}
+
+div.about-group-left {
+	width: 66%;
+	margin: 0px 0px 0px 0px;
+	padding: 25px 0px;
+	display: inline-block;
+	float: left;
+}
+
+div.about-group-right-img img{
+	float: right;
+	margin: 50px 0px 0px 0px;
+}
+
+/*404 Page - css*/
+div.four-o-four video {
+	border: 15px inset #45ac9d;
+	width: 60%;
+	float: left;
+}
+div.four-o-four-content {
+	width: 33%;
+	display:inline-block;
+	float: right;
+}
+
+div.four-o-four-content h1{
+	font-size: 40px;
+	font-style: italic;
+	margin: 0px 0px;
+}
+div.four-o-four-content p{
+	font-size: 24px;
+	margin: 10px 0px;
+}
+div.four-o-four-content input[type="button"], input[type="submit"] {
+    font: 700 1em/2.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+    color: #fff;
+    background: #45ac9d;
+    border: none;
+    padding: 0 1em;
+}
+
+
+/*front-page twitter - css*/
+div.front-widget-area {
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+div.front-widget-area h2 {
+	margin: 50px 0px 0px 100px;
+	font-size: 1em;
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+h3.widget-title {
+	margin: 25px 0px 0px 100px;
+	font-size: 1.5em;
+}
+
+ul.tweets {
+	list-style: none;
+	margin: 20px 0px 0px 100px;
+}
+
+span.stt-em {
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#front-right-wid {
+	margin: 0px 0px 0px 100px;
+}
+
+p.carrot {
+	font-size: .65em;
+	font-weight: 800;
+	color: #45ac9d;
+	display: inline;
+}
+
+
+/*Blog Page Sidebar - css*/
+div.widget-area {
+    width: 250px;
+}
+
+div.mc4wp-form-fields input[type="email"] {
+    width: 79%;
+    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+    font-style: italic;
+    border: 1px solid #a6a6a6;
+    height: 2.6rem;
+    padding: .5em;
+    vertical-align: middle;
+}
+
+div.four-o-four-content input[type="button"], input[type="submit"] {
+    font: 500 1em/2.5 'Montserrat', 'OpenSans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
